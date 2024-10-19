@@ -1,5 +1,10 @@
-.container {
-    width: 1700px;
+.header-cont {
+    width: 1900px !important;
+    padding: 0 15px;
+    margin: auto;
+}
+.container-1 {
+    width: 1600px !important;
     padding: 0 15px;
     margin: auto;
 }
@@ -9,6 +14,8 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.336); 
+    background-blend-mode: darken; 
 }
 
 .header_nav {
@@ -16,27 +23,28 @@
     padding-top: 20px;
 }
 
-.header__logo {
-
-}
+.header__logo {}
 
 .header__menu {
     display: flex;
-    padding-left: 65px;
-    padding-right: 450px;
+    padding-left: 100px;
+    padding-right: 900px;
     align-items: center;
 }
 
 .header__item {
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     line-height: 23.44px;
     text-align: left;
     color: #FFFFFF;
+
     &:not(:last-child) {
         padding-right: 60px;
     }
 }
+
 li {
     list-style: none;
 }
@@ -51,25 +59,85 @@ li {
 }
 
 .header_burger {
-    margin-left: 40px;
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
 }
 
-.header_title {}
+.header-search {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
 
-.header_box {}
+.header_title {
+    h1 {
+        padding-top: 195px;
+        margin: 0;
+        font-family: Roboto;
+        font-size: 120px;
+        font-weight: 900;
+        line-height: 130px;
+        text-align: left;
+        color: #FFFFFF;
+        width: 700px;
+        text-transform: uppercase;
+    }
+}
 
-.header_button {}
+.header_box {
+    padding-top: 21px;
+    padding-bottom: 241px;
+}
 
-.header_bottom {}
+.header_button {
+    width: 280px;
+    height: 82px;
+    border-radius: 30px;
+    background: #DD2242;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
 
-.header_bottom_list {}
+}
 
-.header_bottom_item {}
+.header_bottom {
+    display: flex;
+}
 
-.header_bottom_item-number {}
+.header_bottom_list {
+    margin: 0;
+    padding-left: 71px;
+    padding-top: 41px;
+    padding-bottom: 49px;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    color: white;
+    max-width: 1225px;
+}
+
+.header_bottom_item {
+    width: 220px;
+    height: 120px;
+    margin-right: 198px;
+    &:last-child {
+        margin-right: 128px !important;
+    }
+}
+
+.header_bottom_item-number {
+    color: #DD2242;
+}
 
 .header_bottom_item-title {}
 
-.header_bottom_item-text {}
+.header_bottom_item-text {
+    color: #939393;
+}
 
-.header_vidio_box {}
+.header_vidio {
+    width: 400px;
+    height: 100%;
+}
