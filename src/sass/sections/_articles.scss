@@ -3,7 +3,11 @@
     background-color: #010A20;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    padding-top:200px;
+    padding-bottom: 100px;
+    .container{
+        display: flex;
+    }
 }
 .articlesimg{
 width: 630.34px;
@@ -11,6 +15,8 @@ height: 460px;
 top: 1287px;
 left: 341.64px;
 border-radius: 10px;
+margin: auto;
+padding: 10px;
 }
 .articlesh{
     font-size: 42px; 
@@ -30,5 +36,22 @@ border-radius: 10px;
     background-color: #010A20;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    .container{
+        display: flex;
+    }
+}
+.articlesimg2{
+    width: 479.5px;
+    height: 299.03px;
+    top: 2007px;
+    left: 385.6px;
+    border-radius: 32px;
+    margin: auto;
+    padding: 10px;
+}
+.articles{
+    background-color: #010A20;
+    padding: 0;
 }
